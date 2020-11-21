@@ -139,7 +139,7 @@ header a {
 }
 .icon {
     display: block;
-    background: transparent url(../img/icons-sprite.svg?1520429355783) no-repeat;
+    background: transparent url(../images/icons-sprite.svg?1520429355783) no-repeat;
     background-size: 1296px 1296px;
     background-position: 1296px 1296px;
     width: 16px;
@@ -156,7 +156,7 @@ header a {
     font-weight: bold;
     padding-right: 15px;
 }
-
+/* 
 .top{
 background-color: aqua;
 }
@@ -175,4 +175,4 @@ background-color: darkblue;
 }
 .social{
 background-color: darkgreen;
-}
+} */
