@@ -96,3 +96,83 @@ header a {
     text-decoration: none;
     transition: all .5s ease;
 }
+
+/* TOP-MENU */
+
+.top-menu {
+    width: auto;
+    height: 20px;
+    font-size: 30px;
+    margin: 0 auto 0 auto;
+    padding: 5px 5px;
+    background-color: #ffffff;
+    position: sticky;
+    border-bottom: 20px 20px solid;
+    top: 0;
+    z-index: 1;
+    align-items: center;
+    align-content: center;
+}
+
+.top-menu .nav-left {
+    float: left;
+    padding-top: 5px;
+    background-color: #ffffff;
+}
+
+.top-menu .nav-left ul li {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 14px;
+    letter-spacing: -0.8px;
+}
+
+.top-menu a {
+    color: #999999;
+    text-decoration: none;
+}
+
+.top-menu .nav-right {
+    float: right;
+    padding: 5px;
+    background-color: #ffffff;
+}
+.icon {
+    display: block;
+    background: transparent url(../img/icons-sprite.svg?1520429355783) no-repeat;
+    background-size: 1296px 1296px;
+    background-position: 1296px 1296px;
+    width: 16px;
+    height: 16px;
+}
+
+.icon--search--dark {
+    background-position: -848px -848px;
+}
+
+.top-menu .nav-right .tnw {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.top{
+background-color: aqua;
+}
+.news{
+background-color: blue;
+}
+.funding{
+background-color: blueviolet;
+}
+.most{
+background-color: brown;
+}
+
+.deals{
+background-color: darkblue;
+}
+.social{
+background-color: darkgreen;
+}
